@@ -1,0 +1,179 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archives (optional - if you don't want to track zip files)
+*.zip
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ONNX MODEL FILES (LARGE BINARIES - 500MB+ - DOWNLOAD FROM SOURCE)
+# ═══════════════════════════════════════════════════════════════════════════
+
+# All ONNX model files
+*.onnx
+*.onnx.data
+*.onnx_data
+
+# Bi-Encoder Models (Sentence Transformer)
+Models/Onnx/sentence\ Transformer/sentence_transformer.onnx
+Models/Onnx/sentence\ Transformer/model.onnx
+Models/Onnx/sentence\ Transformer/tokenizer.json
+
+# Cross-Encoder Models (All variants)
+Models/Onnx/CrossEncoder/model.onnx
+Models/Onnx/CrossEncoder/model_O1.onnx
+Models/Onnx/CrossEncoder/model_O2.onnx
+Models/Onnx/CrossEncoder/model_O3.onnx
+Models/Onnx/CrossEncoder/model_O4.onnx
+Models/Onnx/CrossEncoder/tokenizer.json
+
+# Quantized Variants
+Models/Onnx/CrossEncoder/*qint8*.onnx
+Models/Onnx/CrossEncoder/*quint8*.onnx
+
+# LLM Models (Removed from codebase - ignore if present)
+Models/Onnx/phi-3-mini/
+Models/Onnx/phi-3-medium/
+Models/Onnx/phi-4-min/
+Models/Onnx/gemma-4-e2b/
+
+# ═══════════════════════════════════════════════════════════════════════════
+# BUILD & RUNTIME ARTIFACTS
+# ═══════════════════════════════════════════════════════════════════════════
+
+build_output.txt
+build_output_normal.txt
+*.log
+*.tmp
+*.temp
+*.cache
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PYTHON & DEPENDENCIES (for any Python backend if used)
+# ═══════════════════════════════════════════════════════════════════════════
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+ENV/
+.venv
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ═══════════════════════════════════════════════════════════════════════════
+# IDE & EDITOR FILES
+# ═══════════════════════════════════════════════════════════════════════════
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# ═══════════════════════════════════════════════════════════════════════════
+# WINUI & APPLICATION SPECIFIC
+# ═══════════════════════════════════════════════════════════════════════════
+
+AppPackages/
+BundleArtifacts/
+publish/
+.msix
+*.appx
+*.appxbundle
+
+# ═══════════════════════════════════════════════════════════════════════════
+# TEST & COVERAGE
+# ═══════════════════════════════════════════════════════════════════════════
+
+TestResults/
+*.trx
+coverage/
+.coverage
+.pytest_cache/
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ENVIRONMENT & CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+.env
+.env.local
+.env.*.local
+appsettings.local.json
+launchSettings.json
+
+# ═══════════════════════════════════════════════════════════════════════════
+# DATABASE & LOCAL FILES
+# ═══════════════════════════════════════════════════════════════════════════
+
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+# ═══════════════════════════════════════════════════════════════════════════
+# NODE & FRONTEND (if any)
+# ═══════════════════════════════════════════════════════════════════════════
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ═══════════════════════════════════════════════════════════════════════════
+# MISCELLANEOUS
+# ═══════════════════════════════════════════════════════════════════════════
+
+*.bak
+*.swp
+*.tmp
+**/obj/
+**/bin/
+
+# NOTE: IMPORTANT - Keep data files tracked
+# !Models/Onnx/Data/*.json
+# !Data/*.json

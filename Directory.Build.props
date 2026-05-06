@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug' and '$(MSBuildProjectName)' == 'IoTDeviceSuggestionWInUI'">
+    <BaseOutputPath>$(SystemDrive)\IoTWinUI\bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(SystemDrive)\IoTWinUI\obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

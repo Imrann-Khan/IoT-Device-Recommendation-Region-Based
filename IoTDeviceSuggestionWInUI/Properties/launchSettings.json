@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "IoTDeviceSuggestionWInUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "IoTDeviceSuggestionWInUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
